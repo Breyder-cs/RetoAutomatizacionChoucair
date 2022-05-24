@@ -48,8 +48,7 @@ dependencies {
         maxParallelForks = 1
         useJUnit()
         include('**/IniciarSesionRunner*')
-        include('**/CategoriaRunner*')
-        include('**/CorreoRunner*')
+        include('**/IngresarAfuncionalidadBlockValidationRunner*')
 
         reports.junitXml.setEnabled(false)
         reports.html.setEnabled(false)
